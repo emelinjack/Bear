@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Arco';
+  src: url('./assets/arcocyrillic.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --font-arco: "Arco", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #18181b;
+  font-family: var(--font-arco);
+}
