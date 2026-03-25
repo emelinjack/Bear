@@ -8,7 +8,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { Trophy, Heart, Play, RefreshCw, Music } from 'lucide-react';
 
 import bearSrc from './assets/bear.png';
-import bgSrc from './assets/background.PNG';
+import bgSrc from './assets/background.png';
 import itemSrc from './assets/item.png';
 import item1Src from './assets/item1.png';
 import item2Src from './assets/item2.png';
